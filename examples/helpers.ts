@@ -1,8 +1,8 @@
 
-// global log function 
+// global log wrapper
 export const log = (what) => { console.log(what); }
 
-// global print function
+// global print into an element
 export const print = (value) => {
 	const app = document.getElementById('app');
 	const p = document.createElement("p");
